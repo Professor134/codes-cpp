@@ -1,0 +1,38 @@
+#include<iostream>
+using namespace std;
+
+class staff
+{
+    float re, img;
+public:
+    void set()
+    {
+        cout << "\n enter the real and img=" << endl;
+        cin >> re >> img;
+    }
+    void show();
+
+    friend void cal(staff, staff);
+};
+void staff :: show()
+{
+    cout << "no=" << re<<"+"<<img<< "i"<< endl;
+}
+
+void cal(staff x, staff y )
+{
+    staff z;
+    z. re=x.re+y.re;
+    z. img=x.img+y.img;
+    cout << "comp add=" << z. re<<"+"<<z.img<< "i"<<endl;
+}
+int main()
+{
+    staff s1, s2;
+    s1. set();
+    s2. set();
+    s1. show();
+    s2. show();
+    cal(s1, s2);
+
+}
