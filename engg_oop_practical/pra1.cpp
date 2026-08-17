@@ -5,7 +5,7 @@ using namespace std;
 
 class Student {
     int rollno;
-    char name[20];
+    char name[30];
     float marks;
     public:
         void accept() {
