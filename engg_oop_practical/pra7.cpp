@@ -5,6 +5,7 @@
 #include <math.h>
 #include <stdlib.h>
 #include <dos.h>
+
 // DDA Line Drawing Algorithm
 void DDA(int x1, int y1, int x2, int y2)
 {
@@ -83,8 +84,8 @@ int main()
     // Rectangle coordinates
     int left = 100;
     int top = 100;
-    int right = 500;
-    int bottom = 350;
+    int right = 150;
+    int bottom = 380;
 
     int cx = (left + right) / 2;
     int cy = (top + bottom) / 2;

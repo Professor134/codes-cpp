@@ -1,4 +1,12 @@
-
+// Design and implement a C++ program to demonstrate inheritanceby 
+// creating a base class named Employee and derived classes such 
+// as PermanentEmployee and ContractEmployee. The base class should 
+// contain common employee details such as employee ID, employee name,
+//  and basic salary. The derived classes should override member functions
+//   to calculate and display the salary based on their respective pay structures. 
+//   Create objects of the derived classes and demonstrate inheritance, function 
+//   overriding, and code reusability by 
+// displaying the salary details of different types of employees.
 #include <iostream>
 using namespace std;
 

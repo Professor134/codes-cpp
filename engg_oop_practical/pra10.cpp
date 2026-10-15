@@ -93,13 +93,7 @@ void scanLineFill(int fillColor)
         }
     }
 
-    // Redraw the boundary to keep it visible
-    setcolor(WHITE);
-
-    for (i = 0; i < n - 1; i++)
-        line(x[i], y[i], x[i + 1], y[i + 1]);
-
-    line(x[n - 1], y[n - 1], x[0], y[0]);
+    drawPolygon(); // Redraw the polygon boundary after filling
 }
 
 void main()
